@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Sedgwick+Ave+Display&display=swap');
+
+
+:root{
+    --principal-color: #d1fff7bd;
+    --secundario-color: #1bccaeab;
+    --titulos-size: width: 118px;
+    height: 29px;
+    flex-shrink: 0;
+    --parrafo-size: width: 1572px;
+    height: 588px;
+    flex-shrink: 0;
+
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{ font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+p,a,li,button,table{
+    font-family: 'Caveat', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
+body{
+    background: url("../img/fondo.png");
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    
+    background-size: cover;
+}
+.navbar-nav a {
+    
+        background-image: url('../img/Pol2.png');
+        background-position: center;
+        background-size: 100% 110%;
+        background-repeat: no-repeat;
+        color: #000000;
+        justify-content: center;
+        margin-bottom: 60px;
+    
+}
+.navbar-brand img {
+    background-color: transparent; 
+
+  }
+
+
+
+
+#card1 {
+    margin-top: 50px; 
+    margin-bottom: 50px;  
+  }
+
+
+
+.bg-portafolio{
+    background: transparent;
+
+}
+
+.bg-portafolio .nav-link{
+    color: black;
+}
+
+.bg-portafolio ul{
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bg-portafolio ul a img{
+    width: 200px;
+}
+
+header #hero{
+    text-align: center;
+    padding: 8% 0; 
+    background: url("../img/Group\ 1.png");
+    background-size: cover;
+}
+
+#hero h1{
+    color: var(--titulos-size);
+    
+    
+}
+
+#hero h2{
+    color: var(--titulos-size);
+}
+
+#hero #card1{
+    background: #1bccaeab;
+}
+
+#hero img.texto{
+    position: absolute;
+    z-index: 9;
+    bottom: 200px;
+    left: 0 ;
+    right: 0;
+    margin: 0 auto;
+}
+
+#QUIEN_SOY{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+
+}
+
+#QUIEN_SOY h2 {
+    text-align: center;
+  }
+ 
+  #QUIEN_SOY h2 {
+    background-image: url('../img/Pol2.png');
+    background-position: center;
+    background-size: 12% 110%;
+    background-repeat: no-repeat;
+    color: #000000;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#QUIEN_SOY p {
+    text-align: center;
+  }
+
+
+
+
+  #card_quien_soy {
+    background-color: #1bccaeab; 
+    color: #000000;
+    font-size: 30PX;
+  }
+
+  #EXPERIENCIA{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+
+}
+ 
+  #EXPERIENCIA h2 {
+    background-image: url('../img/Pol2.png');
+    background-position: center;
+    background-size: 12% 110%;
+    background-repeat: no-repeat;
+    color: #000000;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+
+  #card_EXPERIENCIA {
+    background-color: #1bccaeab; 
+    color: #000000;
+  }
+  #EXPERIENCIA {
+    text-align: center;
+  }
+  
+  #card_EXPERIENCIA {
+    text-align: left; 
+    margin: 0; 
+    max-width: 600px; 
+    margin: left 20%;; 
+    margin-right: auto; 
+    justify-content:flex-start;
+    font-size: 30px ;
+  }
+
+  #EXPERIENCIA p{
+    text-align: center;
+
+  }
+  
+  #PROYECTOS h2 {
+    background-image: url('../img/Pol2.png');
+    background-position: center;
+    background-size: 12% 110%;
+    background-repeat: no-repeat;
+    color: #000000;
+    justify-content: center;
+    margin-bottom: 60px;
+    display: flex;
+}
+#PROYECTOS p {
+    text-align: center;
+  }
+
+
+
+
+  #card_PROYECTOS {
+    text-align: left; 
+    margin: 0; 
+    max-width: 600px; 
+    margin: left 20%;; 
+    margin-right: auto; 
+    justify-content:flex-start;
+    font-size: 30px ;
+    background-color: #1bccaea1; 
+    color: #000000;
+}
+#ESTUDIOS{
+    text-align: center;
+}
+
+#ESTUDIOS h2 {
+    background-image: url('../img/Pol2.png');
+    background-position: center;
+    background-size: 12% 110%;
+    background-repeat: no-repeat;
+    color: #000000;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#ESTUDIOS p {
+    text-align: center;
+  }
+
+
+
+
+  #card_ESTUDIOS {
+    text-align: left; 
+    margin: 0; 
+    max-width: 600px; 
+    margin: left 20%;; 
+    margin-right: auto; 
+    justify-content:flex-start;
+    font-size: 30px ;
+    background-color: #1bccaea1; 
+    color: #000000;
+}
+#ESTUDIOS{
+    text-align: center;
+}
+
+#HABILIDADES h2 {
+  background-image: url('../img/Pol2.png');
+  background-position: center;
+  background-size: 12% 110%;
+  background-repeat: no-repeat;
+  color: #000000;
+  justify-content: center;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+#card_HABILIDADES {
+  text-align: left; 
+  margin: 10; 
+  max-width: 800%; 
+  margin: left 20%;; 
+  margin-right: auto; 
+  justify-content:flex;
+  font-size: 30px ;
+  background-color: #1bccaea1; 
+  color: #000000;
+}
+
+
+#HABILIDADES {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#card_HABILIDADES {
+  width: 50%; 
+}
+.fa-brands.fa-github {
+  font-size: 80px; 
+  max-width: 100px;
+  text-decoration: none;
+}
+
+.fa-brands.fa-facebook-f{
+  font-size: 80px;
+  max-width: 100px;
+  text-decoration: none;
+}
+.fa-regular.fa-envelope{
+  font-size: 80px;
+  max-width: 100px;
+  text-decoration: none;
+  
+}
